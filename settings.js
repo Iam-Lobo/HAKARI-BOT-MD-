@@ -5,19 +5,19 @@ const { en, es, ar, id, pt, rs } = require('./libs/idiomas/total-idiomas.js')
 const axios = require('axios')
 
 //---------[ PROPIETARIO/OWNER ]---------
-global.owner = [["50231458537", "𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇", true], ["50582340051"], ["51918534156"], ["51982110760"]]
+global.owner = [["5493405480284", "𝑳𝒐𝒃𝒐", true], [""], [""], [""]]
 global.mods = []
 global.premium = []
 global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "atom.bio/brolybot-md/"
-global.botname = "𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫"
-global.wm = '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉'
+global.botname = "𝑯𝒂𝒌𝒂𝒓𝒊-𝑩𝒐𝒕-𝑴𝑫"
+global.wm = '𝑵𝒂𝒌𝒂𝒏𝒐-𝑩𝒐𝒕'
 global.vs = '1.2'
-global.creador = '𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇'
-global.creador2 = '𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇'
-global.name = '𝑪𝑹𝑬𝑨𝑫𝑶𝑹'
+global.creador = '𝑳𝒐𝒃𝒐'
+global.creador2 = '𝑳𝒐𝒃𝒐'
+global.name = '𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐'
 global.nunber = Math.floor(Math.random() * (27 - 18 + 1)) + 18;
 
 
@@ -91,16 +91,16 @@ global.author = `{
  
 //-----------------IMAGENES---------
 global.vid1 = "https://a.uguu.se/pgQUNPne.mp4"
-global.img = "https://i.ibb.co/T4WcsVw/file.jpg";
-global.img1 = 'https://i.ibb.co/T4WcsVw/file.jpg';
-global.img2 = 'https://i.ibb.co/QrkLbP4/file.jpg';
-global.img3 = 'https://i.ibb.co/TbK4bYz/file.jpg';
-global.img4 = 'https://i.ibb.co/0JPshvj/file.jpg';
-global.img5 = 'https://i.ibb.co/hcS68Xh/file.jpg';
-global.img6 = 'https://i.ibb.co/QrkLbP4/file.jpg';
-global.img7 = 'https://i.ibb.co/TbK4bYz/file.jpg';
-global.img8 = 'https://i.ibb.co/0JPshvj/file.jpg';
-global.img9 = 'https://i.ibb.co/hcS68Xh/file.jpg';
+global.img = "https://i.ibb.co/Dz7f9ys/file.jpg";
+global.img1 = 'https://i.ibb.co/h8HRRHS/file.jpg';
+global.img2 = 'https://i.ibb.co/L61p7xX/file.jpg';
+global.img3 = 'https://i.ibb.co/wcD4T12/file.jpg';
+global.img4 = 'https://i.ibb.co/HKBhWpc/file.jpg';
+global.img5 = 'https://i.ibb.co/tJBLjgK/file.jpg';
+global.img6 = 'https://i.ibb.co/j6FQzvz/file.jpg';
+global.img7 = 'https://i.ibb.co/P4JCSkp/file.jpg';
+global.img8 = 'https://i.ibb.co/JrKFFJK/file.jpg';
+global.img9 = 'https://i.ibb.co/WssYvPs/file.jpg';
 
 
 global.imagen1 = fs.readFileSync('./media/menu.jpg')
