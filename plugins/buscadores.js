@@ -27,7 +27,7 @@ await conn.sendMessage(from, {text: info.waittt, edit: key}, { quoted: fkontak }
 await conn.sendMessage(from, {text: info.waitttt, edit: key}, { quoted: fkontak })	
 let teks = `💫 ${lenguaje['result']()} ` + text + '\n\n';
 let no = 1;
-let themeemoji = "🔶"
+let themeemoji = "💞"
 for (let i of search.all) {
   teks += `${themeemoji} ${lenguaje.lengua.opcion} ${no++}\n${themeemoji} ${lenguaje.lengua.tipo} ${i.type}\n${themeemoji} ${lenguaje.lengua.id} ${i.videoId}\n${themeemoji} ${lenguaje.lengua.titulo} ${i.title}\n${themeemoji} ${lenguaje.lengua.vista} ${i.views}\n${themeemoji} ${lenguaje.lengua.dura} ${i.timestamp}\n${themeemoji} ${lenguaje.lengua.subidos} ${i.ago}\n${themeemoji} URL: ${i.url}\n\n✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧\n\n`;
 }
@@ -50,9 +50,9 @@ let google = require('google-it')
 google({'query': text}).then(res => {
 let teks = `💫  ${lenguaje['result']()} ${text}\n\n`
 for (let g of res) {
-teks += `🔶 ${lenguaje.lengua.titulo} ${g.title}\n`
-teks += `🔶 ${lenguaje.lengua.desc} ${g.snippet}\n`
-teks += `🔶 *LINK* : ${g.link}\n\n✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧\n\n`
+teks += `💞 ${lenguaje.lengua.titulo} ${g.title}\n`
+teks += `💞 ${lenguaje.lengua.desc} ${g.snippet}\n`
+teks += `💞 *LINK* : ${g.link}\n\n✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧\n\n`
 } 
 m.reply(teks)})
 }
@@ -81,7 +81,7 @@ if (
     budy.toLowerCase().includes('sexygame') || budy.toLowerCase().includes('pornstream') || budy.toLowerCase().includes('adultstreamer') || budy.toLowerCase().includes('pornstar') ||
     budy.toLowerCase().includes('sexystripper') || budy.toLowerCase().includes('eroticmassage') || budy.toLowerCase().includes('sexylingerie') || budy.toLowerCase().includes('sexycostume')
 ) {
-    return m.reply('😐');
+    return m.reply('😲');
 }
 
 if (!text) return m.reply(`${lenguaje.lengua.ejemplo}\n${prefix + command} gatito`)
@@ -135,7 +135,7 @@ let texttosay = text
 const SpeakEngine = require("google-tts-api"); 
 const texttospeechurl = SpeakEngine.getAudioUrl(texttosay, {lang: "es", slow: false, host: "https://translate.google.com",});
 conn.sendMessage(m.chat, { audio: { url: texttospeechurl }, contextInfo: { "externalAdReply": { "title": botname, "body": ``, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": md, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-m.react('🗣️')}
+m.react('♥️')}
 
 if (command == 'chatgpt' || command == 'ia') {
 const translate = require('@vitalets/google-translate-api') 
@@ -146,8 +146,8 @@ if (prefix == 'a' || prefix == 'A') return
 if (!text) return m.reply(`${lenguaje.lengua.ia} ${prefix + command} Recomienda un top 10 de películas de acción`) 
 try {
 conn.sendPresenceUpdate('composing', m.chat);
-let sistema1 = `𝐴𝐶𝑇𝑈𝐴𝑅𝐴𝑆 𝐶𝑂𝑀𝑂 𝑈𝑁 𝐵𝑂𝑇 𝐷𝐸 𝑊𝐻𝐴𝑇𝑆𝐴𝑃𝑃 𝐶𝑅𝐸𝐴𝐷𝑂 𝑃𝑂𝑅 𝐸𝐿𝐼𝐴𝑆𝐴𝑅 𝑌𝑇 𝑇𝑈 𝑆𝐸𝑅𝐴𝑆
-𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉`;
+let sistema1 = `ACTUARAS COMO UN BOT DE WHATSAPP CREADO POR EL TEAM NAKANO Y TU SERAS UNA BOT FEMENINA CON EL NOMBRE DE
+HAKARI-BOT-MD`;
 async function getOpenAIChatCompletion(texto) {
 const openaiAPIKey = global.openai_key;
 let chgptdb = global.chatgpt.data.users[m.sender];
@@ -174,8 +174,8 @@ if (botIA222.data.choices[0].text == 'error' || botIA222.data.choices[0].text ==
 m.reply(botIA222.data.choices[0].text.trim());
 } catch {
 try {
-const syms1 = `𝐴𝐶𝑇𝑈𝐴𝑅𝐴𝑆 𝐶𝑂𝑀𝑂 𝑈𝑁 𝐵𝑂𝑇 𝐷𝐸 𝑊𝐻𝐴𝑇𝑆𝐴𝑃𝑃 𝐶𝑅𝐸𝐴𝐷𝑂 𝑃𝑂𝑅 𝐸𝐿𝐼𝐴𝑆𝐴𝑅 𝑌𝑇 𝑇𝑈 𝑆𝐸𝑅𝐴𝑆
-𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉`
+const syms1 = `ACTUARAS COMO UN BOT DE WHATSAPP CREADO POR EL TEAM NAKANO Y TU SERAS UNA BOT FEMENINA CON EL NOMBRE DE
+HAKARI-BOT-MD `
 const Empireapi1 = await fetch(`https://api.cafirexos.com/api/chatgpt?text=${text}&name=${m.name}&prompt=${syms1}`);
 const empireApijson1 = await Empireapi1.json();
 if (empireApijson1.resultado == 'error' || empireApijson1.resultado == '' || !empireApijson1.resultado) return XD; // causar error undefined para lanzar msg de error
