@@ -11,7 +11,7 @@ global.premium = []
 global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
-global.pagina = "atom.bio/brolybot-md/"
+global.pagina = "https://www.atom.bio/lobo_owner/"
 global.botname = "𝑯𝒂𝒌𝒂𝒓𝒊-𝑩𝒐𝒕-𝑴𝑫"
 global.wm = '𝑵𝒂𝒌𝒂𝒏𝒐-𝑩𝒐𝒕'
 global.vs = '1.2'
@@ -82,10 +82,10 @@ global.APIKeys = {
 //---------[ STICKERS ]---------
 global.packname = ""
 global.author = `{
- "bot": "𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉"
-  "autor": "𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇",
+ "bot": "𝑯𝒂𝒌𝒂𝒓𝒊-𝑩𝒐𝒕"
+  "autor": "𝑻𝒆𝒂𝒎-𝑵𝒂𝒌𝒂𝒏𝒐",
   "version": "1.2",
-  "creador": "𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇"
+  "creador": "𝑳𝒐𝒃𝒐"
 }
 `
  
@@ -113,31 +113,28 @@ global.verificar = fs.readFileSync('./media/menu2.jpg')
 
 //---------[ ENLACES ]---------
 global.md = 'https://github.com/El-brayan502/BROLYBOT-MD.git'
-global.yt = 'https://www.youtube.com/@Naufrapp'
-global.tiktok = 'https://www.tiktok.com/@Broly_bot_777?_t=8mjJpoJfOBK&_r=1'
-global.fb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD'
-global.faceb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD'
-global.paypal = 'https://www.paypal.me/BrolyCins' 
+global.yt = 'https://youtube.com/@lobo_randomoficial?si=GxLry9SgdUG2S9cF'
+global.tiktok = 'https://www.tiktok.com/@am_edit_fav?_r=1&_d=e9c72al298gkh1&sec_uid=MS4wLjABAAAAyfSaQRyrSWd1Fw7IQfinWcBaNIGkHm2f295sfo3LRwneggDFeCAmM_hWvSKHDjvZ&share_author_id=7005212041620538374&sharer_language=es&source=h5_m&u_code=dkf3gkald2ec5e&timestamp=1728232353&user_id=7005212041620538374&sec_user_id=MS4wLjABAAAAyfSaQRyrSWd1Fw7IQfinWcBaNIGkHm2f295sfo3LRwneggDFeCAmM_hWvSKHDjvZ&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7413037136595650310&share_link_id=14baf42b-74db-458f-aacd-dd5d1fdca13a&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1'
+global.fb = ''
+global.faceb = ''
+global.paypal = '' 
 
-global.host = 'https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV' //Infinity-host
-global.nna = 'https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36' //Update 
-global.nn = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //𝐘𝐮𝐆𝐢-𝐁𝐎𝐓
-global.nn2 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Loli & Nova
-global.nn3 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Grupo de Colaboracion
-global.nn4 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' // Grupo COL 2
-global.nn5 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Grupo COL 3
-global.nn6 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //test
-global.nn7 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Grupo ayuda sobre el bot
-global.nn8 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //enlace YuGi-BOT
-global.multi = 'https://chat.whatsapp.com/CBY978TEw5N10tRhQiapZV' //Grupo náufrazapp
-global.nna2 = 'JHnIQUdCGBHHsA6naIGjHG'
-global.n2 = "https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36"
+global.host = '' //
+global.nna = 'https://whatsapp.com/channel/0029VaXDEwlC1FuFm82otA0K' //
+global.nn = 'https://chat.whatsapp.com/DToXV6TAU8xFH1vBFT9lrq' //grupos OFC
+global.nn2 = 'https://chat.whatsapp.com/LlWSHEMR67ZE8t8mfLm8fu' //soporte
+global.n2 = "https://whatsapp.com/channel/0029VaXDEwlC1FuFm82otA0K"
 //---------[ INFO ]--------- 
-global.info = { wait: '*_■■□□□40%_*', 
-waitt: '*_■■■□□60%_*', 
-waittt: '*_■■■■□80%_*', 
-waitttt: '*_■■■■□90%_*', 
-waittttt: '*_■■■■■100%_*', 
+global.info = { wait: '[■□□□□□□□□□] 10%', 
+waitt: '[■■□□□□□□□□] 20%', 
+waittt: '[■■■□□□□□□□] 30%', 
+waitttt: '[■■■■□□□□□□] 40%', 
+waittttt: '[■■■■■□□□□□] 50%',
+waitttttt: '[■■■■■■□□□□] 60%',
+waittttttt: '[■■■■■■■□□□] 70%',
+waitttttttt: '[■■■■■■■■□□] 80%',
+waittttttttt: '[■■■■■■■■■□] 90%',
+waitttttttttt: '▒▒▒▒▒▒▒▒▒▒ 100% ᴄᴏᴍᴘʟᴇᴛᴇ!',
 result: `${lenguaje['exito']()}`,  
 admin: `${lenguaje['admin']()}`, 
 botAdmin: `${lenguaje['botAdmin']()}`, 
@@ -152,11 +149,11 @@ registra: `${lenguaje['registra']()}`,
 limit: `${lenguaje['limit']()}`, 
 AntiNsfw: `${lenguaje['AntiNsfw']()}`,
 endLimit: `${lenguaje['endLimit']()}`, }
-global.rwait = '⏳'
-global.dmoji = '😅'
+global.rwait = '🔁'
+global.dmoji = '😯'
 global.done = '✔️'
-global.error = '⚠️'
-global.xmoji = '💥'
+global.error = '🚫'
+global.xmoji = '💞'
 
 //---------------[ NIVELES, ADVERTENCIA ]----------------
 global.multiplier = 100 // Cuanto más alto, más difícil subir de nivel 
