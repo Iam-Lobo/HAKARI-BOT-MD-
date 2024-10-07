@@ -42,12 +42,12 @@ if (command == 'play' || command == 'play2') {
     listSections.push({
         title: yt_play[0].title,
         rows: [
-            { header: "Audio (opción 1)", title: "Descargar como Audio", id: `${prefix}musica ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
-            { header: "Audio Doc (Opción 2)", title: "Descargar como Documento de Audio", id: `${prefix}ytmp3doc ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
-            { header: "Video (Opción 1)", title: "Descargar como Video", id: `${prefix}video ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
-            { header: "Video Doc (Opción 2)", title: "Descargar como Documento de Video", id: `${prefix}ytmp4doc ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
-            { header: "Rehacer la búsqueda", title: "Buscar de nuevo", id: `${prefix}play ${text}`, description: `${yt_play[0].title}\n` },
-            { header: "Más Resultados", title: "Ver más resultados", id: `${prefix}yts ${yt_play[0].url}`, description: `${yt_play[0].title}\n` }
+            { header: "💞Audio (opción 1)", title: "Descargar como Audio", id: `${prefix}musica ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
+            { header: "💖Audio Doc (Opción 2)", title: "Descargar como Documento de Audio", id: `${prefix}ytmp3doc ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
+            { header: "⚘Video (Opción 1)", title: "Descargar como Video", id: `${prefix}video ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
+            { header: "💌Video Doc (Opción 2)", title: "Descargar como Documento de Video", id: `${prefix}ytmp4doc ${yt_play[0].url}`, description: `${yt_play[0].title}\n` },
+            { header: "💟Rehacer la búsqueda", title: "Buscar de nuevo", id: `${prefix}play ${text}`, description: `${yt_play[0].title}\n` },
+            { header: "💐Más Resultados", title: "Ver más resultados", id: `${prefix}yts ${yt_play[0].url}`, description: `${yt_play[0].title}\n` }
         ]
     });
 
