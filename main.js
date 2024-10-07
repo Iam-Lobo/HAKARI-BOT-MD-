@@ -1,7 +1,4 @@
-//Código desde cero y comentarios hecho por: 
-// @EliasarYT   
-// @Naufrapp  
-// @El-brayan502          
+
                                      
 //--------------------[ IMPORTACIONES ]-----------------------          
 const baileys = require('@whiskeysockets/baileys'); // trabajar a través de descargas por Whatsapp 
@@ -130,7 +127,7 @@ const time = moment(Number(msg.messageTimestamp + "000")).locale("es-mx").tz("Am
   
 /*const reply = (text) => {  
 m.reply(text)}*/
-function sendMessage(conn, chat, text, m) {conn.sendMessage(chat, { text: text, contextInfo: { forwardedNewsletterMessageInfo: {newsletterJid: '120363312092804854@newsletter', serverMessageId: '', newsletterName: '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫 🐉' }, forwardingScore: 9999999, isForwarded: true }}, {quoted: m, ephemeralExpiration: 24*60*60*1000, disappearingMessagesInChat: 24*60*60*1000 // Ajustado a milisegundos
+function sendMessage(conn, chat, text, m) {conn.sendMessage(chat, { text: text, contextInfo: { forwardedNewsletterMessageInfo: {newsletterJid: '120363283921434745@newsletter', serverMessageId: '', newsletterName: 'Team Nakano' }, forwardingScore: 9999999, isForwarded: true }}, {quoted: m, ephemeralExpiration: 24*60*60*1000, disappearingMessagesInChat: 24*60*60*1000 // Ajustado a milisegundos
 })} 
 m.reply = (text) => {  
 sendMessage(conn, m.chat, text, m)}
@@ -592,7 +589,7 @@ const mariafeature = () =>{
 //ARRANCA LA DIVERSIÓN   
 switch (prefix && command) {  
 case 'test': {
-const test = generateWAMessageFromContent(from, { viewOnceMessage: { message: { "messageContextInfo": { "deviceListMetadata": {}, "deviceListMetadataVersion": 2 }, interactiveMessage: proto.Message.InteractiveMessage.create({ body: proto.Message.InteractiveMessage.Body.create({ text: 'gey' }), footer: proto.Message.InteractiveMessage.Footer.create({ text: "" }), header: proto.Message.InteractiveMessage.Header.create({ title: "", subtitle: "", hasMediaAttachment: false }), nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({buttons: [ {"name": "single_select", "buttonParamsJson": `{"title":"Click", "sections":[{"title":"", "highlight_label": "", "rows":[ {"header":"", "title":"Velocidad", "description":"", "id":".ping"}, {"header":"", "title":"Estado", "description":"", "id":".estado"}, {"header":"", "title":"Menu", "description":"", "id":".menu"}]}]}`}]}), contextInfo: {mentionedJid: [m.sender], forwardingScore: 1, isForwarded: true,forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', newsletterName: '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫-𝐎𝐅𝐂', serverMessageId: '' }}})}}}, {})     
+const test = generateWAMessageFromContent(from, { viewOnceMessage: { message: { "messageContextInfo": { "deviceListMetadata": {}, "deviceListMetadataVersion": 2 }, interactiveMessage: proto.Message.InteractiveMessage.create({ body: proto.Message.InteractiveMessage.Body.create({ text: 'gey' }), footer: proto.Message.InteractiveMessage.Footer.create({ text: "" }), header: proto.Message.InteractiveMessage.Header.create({ title: "", subtitle: "", hasMediaAttachment: false }), nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({buttons: [ {"name": "single_select", "buttonParamsJson": `{"title":"Click", "sections":[{"title":"", "highlight_label": "", "rows":[ {"header":"", "title":"Velocidad", "description":"", "id":".ping"}, {"header":"", "title":"Estado", "description":"", "id":".estado"}, {"header":"", "title":"Menu", "description":"", "id":".menu"}]}]}`}]}), contextInfo: {mentionedJid: [m.sender], forwardingScore: 1, isForwarded: true,forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', newsletterName: 'Team Nakano', serverMessageId: '' }}})}}}, {})     
 const testI = generateWAMessageFromContent(m.key.remoteJid, { viewOnceMessage: { message: { "messageContextInfo": { "deviceListMetadata": {}, "deviceListMetadataVersion": 2 }, interactiveMessage: proto.Message.InteractiveMessage.create({ body: proto.Message.InteractiveMessage.Body.create({ text: '' }), footer: proto.Message.InteractiveMessage.Footer.create({ text: 'NovaBot' }), header: proto.Message.InteractiveMessage.Header.create({ title: 'Nova', subtitle: 'MarioJs', hasMediaAttachment: false }), nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({ buttons: [ { "name": "quick_reply", "buttonParamsJson": `{"display_text":"Menu","id":".menu"}` }, { "name": "quick_reply", "buttonParamsJson": `{"display_text":"Ping","id":".ping"}` }], })})}}}, {}) 
 //conn.relayMessage(test.key.remoteJid, test.message, { messageId: test.key.id }, {quoted: m})
 conn.relayMessage(testI.key.remoteJid, testI.message, { messageId: testI.key.id }, {quoted: m})
@@ -812,7 +809,7 @@ if (this.confirm[m.sender]) return conn.sendText(m.chat, `*⚠️ estas haciendo
 let user = global.db.data.users[m.sender]
 let item = items.filter((v) => v in user && typeof user[v] == 'number')
 let lol = `*⚠️ Uso correcto del comando :*\n*${prefix + command}* [tipo] [cantidad] [@user]\n\n> *Ejemplo :*
-• ${prefix + command} exp 100 @0\n\n📍 Artículos transferibles\n╔═════ೋೋ═════╗\n● *limit* = Diamante\n● *exp* = Experiencia\n● *money* = coins\n╚════ ≪ •❈• ≫ ════╝`
+• ${prefix + command} exp 100 @0\n\n📍 Artículos transferibles\n╔═════ೋೋ═════╗\n● *limit* = ¥ Yenes\n● *exp* = Experiencia\n● *money* = coins\n╚════ ≪ •❈• ≫ ════╝`
 let type = (args[0] || '').toLowerCase()
 if (!item.includes(type)) return conn.sendTextWithMentions(m.chat, lol, m)
 let count = Math.min(Number.MAX_SAFE_INTEGER, Math.max(1, (isNumber(args[1]) ? parseInt(args[1]) : 1))) * 1
@@ -851,9 +848,9 @@ case 'proyectos': case 'proyecto':
 𝐆𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐞𝐬𝐭𝐚𝐫 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐚𝐝𝐨 𝐞𝐧 𝐥𝐨𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 𝐥𝐨𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬 𝐬𝐨𝐧:
 
-- 𝑻𝒉𝒆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕 GitHub
-- 𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 GitHub
-- 𝐊𝐞𝐧𝐣𝐢𝐁𝐨𝐭-𝐌𝐃 GitHub
+- NAKANO-BOT GitHub
+- HAKARI-BOT-MD GitHub
+- 
     `,
     botname,
     null,
@@ -1105,7 +1102,7 @@ let media = or[Math.floor(Math.random() * 2)]
 if (media === 'texto')
 m.reply('*Mi jefe no me quiere 😢*')        
 if (media === 'sticker')         
-conn.sendFile(m.chat, e, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '', newsletterName: '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'ᶜ ᴬᵘᵗᵒᵈᵉˢᶜʳᵘʸᵉ', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+conn.sendFile(m.chat, e, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', serverMessageId: '', newsletterName: 'Team Nakano' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'ᶜ ᴬᵘᵗᵒᵈᵉˢᶜʳᵘʸᵉ', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 if (budy.includes(`Ansi`) || budy.includes(`Ansi-BOT`) || budy.includes(`BOT`) || budy.includes(`ANSi`)) {
 m.react(`${pickRandom(['🌟', '👀', '🤑'])}`)}
 if (budy.includes(`Avisos`) || budy.includes(`Atencion`)) {
@@ -1117,7 +1114,7 @@ let noetiqueta = 'https://qu.ax/lqFC.webp'
 let or = ['texto', 'sticker']; 
 let media = or[Math.floor(Math.random() * 2)]
 if (media === 'sticker')     
-conn.sendFile(m.chat, noetiqueta, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '', newsletterName: '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'Yo que?', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+conn.sendFile(m.chat, noetiqueta, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', serverMessageId: '', newsletterName: 'Team Nakano' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'Yo que?', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto')
 await conn.sendMessage(m.chat, {text: `${pickRandom(['*QUE YO QUE?*', 'Que?'])}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 if (budy.includes(`Yaoi`)) {
@@ -1356,7 +1353,7 @@ conn.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
  
 //--------------------[ REPORTE/ERRORS ]-----------------------     
 let e = String(err) 
-conn.sendMessage("50231458537@s.whatsapp.net", { text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e), 
+conn.sendMessage("5493405480284@s.whatsapp.net", { text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e), 
 contextInfo:{forwardingScore: 9999999, isForwarded: false }})
 process.on('uncaughtException', function (err) {
 console.log('Caught exception: ', err)})}}}}
