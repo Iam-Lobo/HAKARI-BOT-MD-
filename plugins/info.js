@@ -10,10 +10,10 @@ const baileys = require('@whiskeysockets/baileys')
  const fs = require("fs")
  const ws = require('ws')
 const { smsg, getGroupAdmins, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, delay, format, logic, generateProfilePicture, parseMention, getRandom } = require('../libs/fuctions.js')
-let panel = "https://www.cafirexos.com"
-let panel2 = "https://host.panel-infinitywa.store"
-let cafi = "https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W"
-let cafi2 = "https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno"
+let panel = ""
+let panel2 = ""
+let cafi = ""
+let cafi2 = ""
 
 async function info(command, conn, m, speed, sender, fkontak, pickRandom, pushname, from, msg, text) {
 if (global.db.data.users[m.sender].registered < true) return m.reply(info.registra)
@@ -54,10 +54,10 @@ conn.sendMessage(m.chat, {image: imagen1, caption: stateRun, contextInfo:{ menti
 }
 
 if (command == 'owner' || command == 'creador' || command == 'contacto') {
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; 𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇'
-👑;;;\nFN: 𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇'\nORG: 𝑩𝑹𝑨𝒀𝑨𝑵-𝑮𝑻᳇'
-👑\nTITLE:\nitem1.TEL;waid=50231458537:+50231458537\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
-let a = await conn.sendMessage(m.chat, { contacts: { displayName: 'Broly 🐉', contacts: [{ vcard }] }}, {quoted: m})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; Team nakano'
+👑;;;\nFN: Team nakano'\nORG: Team nakano'
+👑\nTITLE:\nitem1.TEL;waid=5493405480284:+5493405480284\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
+let a = await conn.sendMessage(m.chat, { contacts: { displayName: 'HAKARI-BOT-MD', contacts: [{ vcard }] }}, {quoted: m})
 await conn.sendMessage(m.chat, { text : `${lenguaje['smsWel']()} @${sender.split("@")[0]}, ${lenguaje.info.text12}\n\n${fb}`, mentions: [sender]}, { quoted: a, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }
 
@@ -79,9 +79,9 @@ if (command == 'instalarbot' || command == 'crearbot') {
 conn.sendMessage(m.chat, { text: lenguaje.info.text20(fb, md),
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363312092804854@newsletter', 
+newsletterJid: '120363283921434745@newsletter', 
 serverMessageId: '', 
-newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' },
+newsletterName: 'Team Nakano' },
 mentions: [sender], 
 forwardingScore: 9999999,
 isForwarded: true, 
@@ -122,16 +122,16 @@ if (command == 'infohost' || command == 'host') {
 conn.sendMessage(m.chat, { text: lenguaje.info.text27(nna, host, paypal, fb),
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363312092804854@newsletter', 
+newsletterJid: '120363283921434745@newsletter', 
 serverMessageId: '', 
-newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' },
+newsletterName: 'Team Nakano' },
 forwardingScore: 9999999,
 isForwarded: true, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
-body: `✅ Hosting de Calidad`,
+title: `HAKARI-BOT-MD `,
+body: `Bot Multi Uso`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
 "sourceUrl": pickRandom([nna, panel2, host, md])}}},
@@ -141,17 +141,17 @@ if (command == 'cafirexos' || command == 'Cafirexos') {
 conn.sendMessage(m.chat, { text: lenguaje.info.text26,
 contextInfo:{
 forwardedNewsletterMessageInfo: {
-newsletterJid: '120363312092804854@newsletter', 
+newsletterJid: '120363283921434745@newsletter', 
 serverMessageId: '',  
-newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' },
+newsletterName: 'Team Nakano' },
 mentions: [sender], 
 forwardingScore: 9999999,
 isForwarded: true, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🔵 C A F I R E X O S 🔵`, 
-body: `✅ Hosting de Calidad`, 
+title: ``, 
+body: ``, 
 "previewType": "PHOTO",
 thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png', 
 "sourceUrl": pickRandom([nna, panel, cafi, cafi2, md, yt])}}},
@@ -168,19 +168,19 @@ conn.sendMessage(i + "@s.whatsapp.net", {text: teks + teks1, mentions:[m.sender]
 conn.sendMessage(m.chat, {text: teks + teks2 + teks1, mentions:[m.sender]}, {quoted:m})
 }
 
-if (command == 'sc') {
-let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
-let res = await fetch('https://api.github.com/repos/El-brayan502/BrolyBot-MD')
-let json = await res.json()
-let txt = `			 *乂 B O T  -  S C R I P T 乂*\n\n`
-txt += `◦ *Nombre :* ${json.name}\n`
-txt += `◦ *Visitantes :* ${json.watchers_count}\n`
-txt += `◦ *Tamaños :* ${(json.size / 1024).toFixed(2)} MB\n`
-txt += `◦  *Tamaños :* ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`
-txt += `◦  *Url* : ${json.html_url}\n\n`
-txt += `${json.forks_count} Forks · ${json.stargazers_count} Stars · ${json.open_issues_count} Issues\n\n`
-txt += res
-await conn.relayMessage(m.chat,  {requestPaymentMessage: {currencyCodeIso4217: 'INR', amount1000: '1000000000000', requestFrom: '0@s.whatsapp.net', noteMessage: {extendedTextMessage: {text: txt, contextInfo: {mentionedJid: [m.sender], externalAdReply: {showAdAttribution: true }}}}}}, {})}
+//if (command == 'sc') {
+//let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
+//let res = await fetch('https://api.github.com/repos/El-brayan502/BrolyBot-MD')
+//let json = await res.json()
+//let txt = `			 *乂 B O T  -  S C R I P T 乂*\n\n`
+//txt += `◦ *Nombre :* ${json.name}\n`
+//txt += `◦ *Visitantes :* ${json.watchers_count}\n`
+//txt += `◦ *Tamaños :* ${(json.size / 1024).toFixed(2)} MB\n`
+//txt += `◦  *Tamaños :* ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`
+//txt += `◦  *Url* : ${json.html_url}\n\n`
+//txt += `${json.forks_count} Forks · ${json.stargazers_count} Stars · ${json.open_issues_count} Issues\n\n`
+//txt += res
+//await conn.relayMessage(m.chat,  {requestPaymentMessage: {currencyCodeIso4217: 'INR', amount1000: '1000000000000', requestFrom: '0@s.whatsapp.net', noteMessage: {extendedTextMessage: {text: txt, contextInfo: {mentionedJid: [m.sender], externalAdReply: {showAdAttribution: true }}}}}}, {})}
 
 if (command == 'status' || command == 'velocidad') {
 const { performance } = require('perf_hooks') 
