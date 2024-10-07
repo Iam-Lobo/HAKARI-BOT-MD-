@@ -67,12 +67,12 @@ conn.sendMessage(m.chat, { text: `${wm}
 
 ━━━━━ • ஜ • ❈ • ஜ • ━━━━━
 
-◈ 𝙶𝚁𝚄𝙿𝙾 𝙾𝙵𝙸𝙲𝙸𝙰𝙻 :
+◈ SOPORTE NAKANO:
 1) ${nn2}
 
 ━━━━━ • ஜ • ❈ • ஜ • ━━━━━
 
-◈ 𝙲𝙰𝙽𝙰𝙻 𝙾𝙵𝙸𝙲𝙸𝙰𝙻 :
+◈ CANAL OFICIAL  :
 ${n2}`, contextInfo:{mentions: [sender], forwardingScore: 9999999, isForwarded: false, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen2, sourceUrl: nn2}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'instalarbot' || command == 'crearbot') {
@@ -109,14 +109,14 @@ conn.sendMessage(`50231458537@s.whatsapp.net`, {text: `╭━━〔 *𝚁𝙴�
 m.reply(`${lenguaje.info.text22}`)
 }
 
-if (command == 'donar') {
-conn.sendMessage(m.chat, { text: lenguaje.info.text23(paypal) + `\n\n${lenguaje.info.text24}`, contextInfo:{ forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '',  newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "body": `Ayuda a mantener el bot activo`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: md}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+//if (command == 'donar') {
+//conn.sendMessage(m.chat, { text: lenguaje.info.text23(paypal) + `\n\n${lenguaje.info.text24}`, contextInfo:{ forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '',  newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "body": `Ayuda a mantener el bot activo`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: md}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'solicitud') {
-conn.sendMessage(m.chat, { text: lenguaje.grupos.text8(md, yt, nn7, fb), contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '',  newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' }, forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": wm, "body": vs, "previewType": "VIDEO", thumbnail: imagen1, sourceUrl: pickRandom([nna, nn, md, yt])}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+conn.sendMessage(m.chat, { text: lenguaje.grupos.text8(md, yt, nn7, fb), contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', serverMessageId: '',  newsletterName: 'Team Nakano' }, forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": wm, "body": vs, "previewType": "VIDEO", thumbnail: imagen1, sourceUrl: pickRandom([nna, nn, md, yt])}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'cuenta' || command == 'cuentaofc' || command == 'cuentaoficiales' || command == 'cuentas') {
-conn.sendMessage(m.chat, { text: `*🔰 ${lenguaje['smsWel']()}* @${sender.split("@")[0]} ${lenguaje['cuenta'](nna, md, yt, tiktok, fb)}`, contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '',  newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' }, mentionedJid:[sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+conn.sendMessage(m.chat, { text: `*🔰 ${lenguaje['smsWel']()}* @${sender.split("@")[0]} ${lenguaje['cuenta'](nna, md, yt, tiktok, fb)}`, contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', serverMessageId: '',  newsletterName: 'Team Nakano' }, mentionedJid:[sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'infohost' || command == 'host') {
 conn.sendMessage(m.chat, { text: lenguaje.info.text27(nna, host, paypal, fb),
