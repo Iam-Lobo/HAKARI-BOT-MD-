@@ -481,9 +481,9 @@ if (command === 'menu3' || command === 'menugrupos') {
     
     
     conn.sendButton(m.chat, submenu, grupos, randomImage, 
-        [['𝗜𝗥 𝗔𝗟 𝗠𝗘𝗡𝗨 📜', `.menu`], 
-         ['𝗘𝗦𝗧𝗔𝗗𝗢 📊', `.status`], 
-         ['𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 ⚡', `.ping`]],
+        [['MENU COMPLETO', `.menu`], 
+         ['ESTADO', `.status`], 
+         ['VELOCIDAD', `.ping`]],
         null, null, m);
 }
 
@@ -628,7 +628,7 @@ if (command === 'menuOwner' || command === 'menu11') {
 
 if (command == 'allmenu' || command == 'menucompleto') {
 m.react('⏱️') 
-let menu = `╔━━━▣━━◤ 𝘽𝙍𝙊𝙇𝙔 ◢━━▣━━━╗
+let menu = `╔━━━▣━━◤ HAKARI-BOT-MD ◢━━▣━━━╗
 ║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ║${lenguaje['smsWel']()} @${sender.split("@")[0]} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 👋🏻
 ║࿇ ══━━━━✥◈✥━━━━══ ࿇
@@ -729,7 +729,7 @@ ${lenguaje.menu.text12}
 *╰♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥࣭࣭࣭۫┄̸࣭۫♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥࣭࣭࣭۫┄̸࣭۫♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
 
 *╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*🔰⃐ＧＲＵＰＯＳ*️⃟ᬽ፝֟━*
-├• 𝐺𝑒𝑠𝑡𝑖𝑜𝑛𝑎𝑟 𝑡𝑢 𝑔𝑟𝑢𝑝𝑜 𝑐𝑜𝑛 ✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨
+├• 𝐺𝑒𝑠𝑡𝑖𝑜𝑛𝑎𝑟 𝑡𝑢 𝑔𝑟𝑢𝑝𝑜
 ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
 ├༒ᰰຼ ✎ ${prefix}𝑤𝑒𝑙𝑐𝑜𝑚𝑒 _(𝑜𝑛/𝑜𝑓𝑓)_
 ├༒ᰰຼ ✎ ${prefix}𝑎𝑛𝑡𝑖𝑙𝑖𝑛𝑘 _(𝑜𝑛/𝑜𝑓𝑓)_
@@ -973,7 +973,7 @@ ${lenguaje.menu.text12}
 *╰♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥࣭࣭࣭۫┄̸࣭۫♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥࣭࣭࣭۫┄̸࣭۫♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
 
 *╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐👽ＳＴＩＣＫＥＲ*️⃟ᬽ፝֟━*
-├༒ *(𝐶𝑟𝑒𝑎𝑟 𝑠𝑡𝑖𝑐𝑘𝑒𝑟 𝑑𝑒𝑠𝑑𝑒 𝑤ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝑐𝑜𝑛 𝑌𝑢𝐺𝑖-𝐵𝑂𝑇)*
+├༒
 ├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
 ├༒ᰰຼ ✎ ${prefix}𝑠
 ├༒ᰰຼ ✎ ${prefix}𝑠𝑡𝑖𝑐𝑘𝑒𝑟 
@@ -984,7 +984,7 @@ ${lenguaje.menu.text12}
 *╰♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥࣭࣭࣭۫┄̸࣭۫♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥࣭࣭࣭۫┄̸࣭۫♡ﾟ･｡｡･ﾟ♡ﾟ･｡♥｡･ﾟ♥̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
 
 *╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐👑ＯＷＮＥＲ*️⃟ᬽ፝֟━*
-├༒ _(𝐶𝑜𝑚𝑎𝑛𝑑𝑜 𝑒𝑥𝑐𝑙𝑢𝑠𝑖𝑣𝑜 𝑝𝑎𝑟𝑎 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜/𝑜𝑤𝑛𝑒𝑟 𝑑𝑒 𝑌𝑢𝐺𝑖-𝐵𝑂𝑇 𝑐𝑜𝑚𝑎𝑛𝑑𝑜𝑠 𝑠𝑜𝑙𝑜 𝑝𝑎𝑟𝑎 𝑒𝑙𝑖𝑎𝑠𝑎𝑟 𝑦𝑡)_
+├༒ 
 ├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
 ├༒ᰰຼ ✎ ${prefix}𝑎𝑛𝑡𝑖𝑐𝑎𝑙𝑙 _(𝑜𝑛/𝑜𝑓𝑓)_
 ├༒ᰰຼ ✎ ${prefix}𝑎𝑛𝑡𝑖𝑙𝑙𝑎𝑚𝑎𝑑𝑎 _(𝑜𝑛/𝑜𝑓𝑓)_
@@ -1022,9 +1022,9 @@ ${lenguaje.menu.text12}
 conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363312092804854@newsletter', 
+newsletterJid: '120363283921434745@newsletter', 
 serverMessageId: '', 
-newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' },
+newsletterName: 'Team Nakano' },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[sender, numBot],  
@@ -1040,10 +1040,10 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 }
 
 if (command == 'nuevo' || command == 'extreno') {
-conn.sendMessage(m.chat, { text: lenguaje.menu.text15(vs), contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '', newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+conn.sendMessage(m.chat, { text: lenguaje.menu.text15(vs), contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', serverMessageId: '', newsletterName: 'Team Nakano💞' }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'reglas') {
-conn.sendMessage(m.chat, { text: lenguaje.menu.text16, contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363312092804854@newsletter', serverMessageId: '', newsletterName: '𝐁𝐫𝐨𝐥𝐲𝐁𝐨𝐭-𝐌𝐃 🐉' }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}}
+conn.sendMessage(m.chat, { text: lenguaje.menu.text16, contextInfo:{forwardedNewsletterMessageInfo: { newsletterJid: '120363283921434745@newsletter', serverMessageId: '', newsletterName: 'Team Nakano💞' }, mentions: [sender], forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": ` ${wm}`, "body": ` ${vs}`, "previewType": "PHOTO", thumbnail: imagen1, sourceUrl: `${pickRandom([nna, nn, md, yt])}`}}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}}
 
 module.exports = { menu }
 
