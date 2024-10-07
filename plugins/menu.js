@@ -1023,7 +1023,7 @@ ${lenguaje.menu.text12}
 ├༒ᰰຼ ✎ $ 
 ├༒ᰰຼ ✎ >
 ├༒ᰰຼ ✎ => 
-╚═══════☆♡☆═══════╝
+╚═══════☆♡☆═══════╝`
 conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
