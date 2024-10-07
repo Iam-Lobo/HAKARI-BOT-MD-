@@ -13,7 +13,7 @@ global.blockList = []
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "https://www.atom.bio/lobo_owner/"
 global.botname = "𝑯𝒂𝒌𝒂𝒓𝒊-𝑩𝒐𝒕-𝑴𝑫"
-global.wm = '𝑵𝒂𝒌𝒂𝒏𝒐-𝑩𝒐𝒕'
+global.wm = 'Team Nakano'
 global.vs = '1.2'
 global.creador = '𝑳𝒐𝒃𝒐'
 global.creador2 = '𝑳𝒐𝒃𝒐'
@@ -112,7 +112,7 @@ global.noperfil = fs.readFileSync('./media/sinfoto.jpg')
 global.verificar = fs.readFileSync('./media/menu2.jpg')
 
 //---------[ ENLACES ]---------
-global.md = 'https://github.com/El-brayan502/BROLYBOT-MD.git'
+global.md = 'https://github.com/LOBO50K/THE-QUINTUPLETS-.git'
 global.yt = 'https://youtube.com/@lobo_randomoficial?si=GxLry9SgdUG2S9cF'
 global.tiktok = 'https://www.tiktok.com/@am_edit_fav?_r=1&_d=e9c72al298gkh1&sec_uid=MS4wLjABAAAAyfSaQRyrSWd1Fw7IQfinWcBaNIGkHm2f295sfo3LRwneggDFeCAmM_hWvSKHDjvZ&share_author_id=7005212041620538374&sharer_language=es&source=h5_m&u_code=dkf3gkald2ec5e&timestamp=1728232353&user_id=7005212041620538374&sec_user_id=MS4wLjABAAAAyfSaQRyrSWd1Fw7IQfinWcBaNIGkHm2f295sfo3LRwneggDFeCAmM_hWvSKHDjvZ&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7413037136595650310&share_link_id=14baf42b-74db-458f-aacd-dd5d1fdca13a&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1'
 global.fb = ''
