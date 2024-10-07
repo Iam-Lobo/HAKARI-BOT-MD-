@@ -45,7 +45,7 @@ rows: [{ header: `𝐖𝐄𝐋𝐂𝐎𝐌𝐄 ${welcome ? '✅' : '❌'}`, titl
             ]
         });
 
-conn.sendList(m.chat, `━━━━▣━━◤BROLY-BOT◢━━▣━━━━━
+conn.sendList(m.chat, `━━━━▣━━◤HAKARI-BOT-MD◢━━▣━━━━━
 ║◤━━━━━ ◑ω◐ ━━━━━◥
 ║aqui tiene las lista para activa y desactivar :)
 ║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
